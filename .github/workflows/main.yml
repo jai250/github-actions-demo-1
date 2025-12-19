@@ -1,8 +1,8 @@
-name: demo-1
+name: my-demo
 on: workflow_dispatch
 jobs:
-    first-job:
-        runs-on: ubuntu-latest
-        steps:
-         - run: echo "first demoooo"
-        
+   my-job:
+      steps:
+        - run: echo "welcome jai"
+      runs-on: ubuntu-latest
+      
