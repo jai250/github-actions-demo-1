@@ -1,0 +1,11 @@
+name: actions-checkout-demo
+on: workflow_dispatch
+jobs:
+   checkout-demo:
+      runs-on: ubuntu-latest
+      steps:
+        - name: checkout-step
+          uses: actions/checkout@v4
+
+        - name: list files
+          run: ls -lart
