@@ -1,0 +1,10 @@
+name: demo-actor
+
+on: workflow_dispatch
+
+jobs:
+   actor-job:
+      runs-on: ubuntu-latest
+      steps:
+         - run: echo "${{github.actor}} hi jai"
+      
